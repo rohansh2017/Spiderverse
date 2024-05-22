@@ -1,0 +1,82 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "CanonEvent",
+            "request": "launch",
+            "mainClass": "spiderman.CanonEvent",
+            "projectName": "Spiderverse_bb7d3851"
+        },
+        {
+            "type": "java",
+            "name": "Clusters",
+            "request": "launch",
+            "mainClass": "spiderman.Clusters",
+            "projectName": "Spiderverse_bb7d3851",
+            "args": "dimension.in clusters.out"
+        },
+        {
+            "type": "java",
+            "name": "CollectAnomalies",
+            "request": "launch",
+            "mainClass": "spiderman.CollectAnomalies",
+            "projectName": "Spiderverse_bb7d3851",
+            "args": "dimension.in spiderverse.in hub.in collected.out"
+        },
+        {
+            "type": "java",
+            "name": "Collider",
+            "request": "launch",
+            "mainClass": "spiderman.Collider",
+            "projectName": "Spiderverse_bb7d3851",
+            "args": "dimension.in spiderverse.in collider.out"
+        },
+        {
+            "type": "java",
+            "name": "GoHomeMachine",
+            "request": "launch",
+            "mainClass": "spiderman.GoHomeMachine",
+            "projectName": "Spiderverse_bb7d3851",
+            "args": "dimension.in spiderverse.in hub.in anomalies.in report.out"
+        },
+        {
+            "type": "java",
+            "name": "SaveMiles",
+            "request": "launch",
+            "mainClass": "spiderman.SaveMiles",
+            "projectName": "Spiderverse_bb7d3851"
+        },
+        {
+            "type": "java",
+            "name": "StdIn",
+            "request": "launch",
+            "mainClass": "spiderman.StdIn",
+            "projectName": "Spiderverse_bb7d3851"
+        },
+        {
+            "type": "java",
+            "name": "StdOut",
+            "request": "launch",
+            "mainClass": "spiderman.StdOut",
+            "projectName": "Spiderverse_bb7d3851"
+        },
+        {
+            "type": "java",
+            "name": "TrackSpot",
+            "request": "launch",
+            "mainClass": "spiderman.TrackSpot",
+            "projectName": "Spiderverse_bb7d3851",
+            "args": "dimension.in spiderverse.in spot.in trackspot.out"
+        }
+    ]
+}
